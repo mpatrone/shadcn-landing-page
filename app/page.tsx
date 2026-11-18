@@ -1,19 +1,20 @@
+import { Contact31 } from "@/components/contact31";
+import { Footer1 } from "@/components/footer1";
+import { Gallery4 } from "@/components/gallery4";
+import { Hero195 } from "@/components/hero195";
+import { Logos10 } from "@/components/logos10";
+import { Pricing16 } from "@/components/pricing16";
 import { Button } from "@/components/ui/button"
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
+    <div className="h-full flex flex-col items-center">
+      <Hero195 />
+      <Logos10 />
+      <Gallery4 />
+      <Pricing16 />
+      <Contact31 />
+      <Footer1 />
     </div>
   )
 }
