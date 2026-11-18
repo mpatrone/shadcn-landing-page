@@ -8,13 +8,15 @@ import { Button } from "@/components/ui/button"
 
 export default function Page() {
   return (
-    <div className="h-full flex flex-col items-center">
+    <div className="grid grid-cols-1 gap-8">
       <Hero195 />
-      <Logos10 />
-      <Gallery4 />
-      <Pricing16 />
-      <Contact31 />
-      <Footer1 />
+      <div className="grid grid-cols-1">
+        <Logos10 />
+        <Gallery4  />
+        <Pricing16 />
+        <Contact31 />
+        <Footer1 />
+      </div>
     </div>
   )
 }
