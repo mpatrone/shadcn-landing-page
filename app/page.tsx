@@ -8,15 +8,14 @@ import { Button } from "@/components/ui/button"
 
 export default function Page() {
   return (
-    <div className="grid grid-cols-1 gap-8">
+    <div className="container mx-auto grid grid-cols-1 gap-8">
       <Hero195 />
-      <div className="grid grid-cols-1">
         <Logos10 />
         <Gallery4  />
         <Pricing16 />
         <Contact31 />
         <Footer1 />
-      </div>
+
     </div>
   )
 }
